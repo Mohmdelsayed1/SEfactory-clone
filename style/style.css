@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.main-page {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+/* hero styling */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  height: 100vh;
+  width: 100wh;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 12%;
+  margin-top: 5%;
+  margin-bottom: 35%;
+  height: 10%;
+  width: 75%;
+}
+
+.left-title {
+  background-color: #363738;
+  line-height: 2.5;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.right-title {
+  background-color: #fcfcfd;
+  color: #363738;
+  line-height: 2.5;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.train {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: right;
+  padding-right: 5%;
+  width: 70%;
+}
+
+.hire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: left;
+  color: #fcfcfd;
+  padding-left: 5%;
+  width: 70%;
+}
+
+.hire-qs {
+  font-weight: 900;
+}
+
+.train-paragraph {
+  text-align: right;
+  width: 100%;
+  padding-bottom: 7%;
+}
+
+.train-description {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  line-height: 1.5;
+}
+
+.train-button {
+  text-decoration: none;
+  color: #fcfcfd;
+  background-color: rgba(35, 35, 35, 0.9);
+  font-family: Noto Sans Mono, sans-serif;
+  text-align: center;
+  padding: 15px 20px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.hire-description {
+  display: flex;
+  justify-content: flex-start;
+  line-height: 1.5;
+}
+
+.hire-paragraph {
+  width: 100%;
+  padding-bottom: 7%;
+  text-align: start;
+}
+
+.hire-button {
+  text-decoration: none;
+  color: rgba(35, 35, 35, 0.9);
+  background-color: #fcfcfd;
+  font-family: Noto Sans Mono, sans-serif;
+  text-align: center;
+  padding: 15px 20px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.hero-left {
+  background-image: url("../assets/others/img-1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-right {
+  background-image: linear-gradient(
+      rgba(35, 35, 35, 0.85),
+      rgba(35, 35, 35, 0.85)
+    ),
+    url("../assets/others/img-2.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100%;
+}
+
+/*Youtube Section*/
+
+.youtube-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f2f3;
+}
+
+.youtube-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+}
+
+.section-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.dots-line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  font-weight: 900;
+}
+
+.section-text{
+  display: flex;
+}
+.section-text>p{
+  margin-left: 10px;
+}
+
+.circle-with-green{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.black-icon{
+  height: 20px;
+  width: 20px;
+  background-color: #363738;
+  border-radius: 25px;
+}
+
+.grey-icon{
+  height: 20px;
+  width: 20px;
+  background-color: #dcdee1;
+  border-radius: 25px;
+}
+
+.green-icon{
+  height: 20px;
+  width: 20px;
+  background-color: #28eea7;
+  border-radius: 25px;
+}
+
+.youtube{
+  width: 100%;
+  height: 100%;
+}
+
+.youtube-video{
+  height: 100%;
+  width: 100%;
+  border: 15px solid #28eea7;
+  border-radius: 10px;
+}
+
+.video{
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  pointer-events:auto;
+}
+
+/* milestone section */
+
+.milestone-section{
+  display: flex;
+  justify-content: center;
+}
+
+.milestone-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin: 10% 0;
+}
+
+/* milestone arrangement */
+.facts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.employment{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5%;
+}
+
