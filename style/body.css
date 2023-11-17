@@ -5,6 +5,11 @@ body {
   background-color: #fcfcfd;
 }
 
+button{
+  font-family: Noto Sans Mono, sans-serif;
+  padding: 10px 20px;
+}
+
 p {
   display: block;
   margin-block-start: 1em;
@@ -13,6 +18,3 @@ p {
   margin-inline-end: 0px;
 }
 
-h1 {
-  margin: 0.67em 0;
-}
